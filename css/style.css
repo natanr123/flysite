@@ -1,0 +1,131 @@
+body{
+	font:15px Arial ,Helvetica,sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+
+	
+
+}
+
+/*global*/
+.container{
+
+	width: 70%;
+	margin: auto;
+	overflow: hidden;
+
+}
+ul{
+    
+	margin: 0;
+	padding: 0;
+
+}
+
+
+.button_1{
+	height: 38px;
+	background: #e8491d;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #ffffff;
+}
+
+
+/*header*/
+header{
+	background: #f4f4f4;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #add8e6 3px solid; 
+
+}
+header a{
+	color: darkblue;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+
+
+}
+header #branding h1{
+    color: darkblue;
+	margin: 0;
+}
+header #branding{
+	float: left;
+}
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+
+header .highlight , header .current a{
+	color: dodgerblue;
+	font-weight: bold;
+
+}
+
+header a:hover{
+	color:#cccccc;
+	font-weight: bold;
+}
+/*showcase*/
+
+#showcase{
+	background: url('../img/fly.jpg') no-repeat 0 -160px;
+    background-size: 100%;
+	text-align: center;
+	color: midnightblue;
+    border-bottom: #add8e6 3px solid;
+}
+#showcase h1{
+    
+	margin-top: 100px;
+	font-size: 55px;
+	margin-bottom: 10px;
+	
+}
+#showcase p{
+	
+	font-size: 20px;
+}
+
+footer{
+	padding: 20px;
+	margin-top: 20px;
+	color: #ffffff;
+	background-color: skyblue;
+	text-align: center;
+
+}
+
+
+
+form {
+    margin: 10px;
+}
+
+
+#about {
+    padding: 20px;
+    width: 60%;
+    margin: 10px auto;
+    background-color: ghostwhite;
+    text-align: justify;
+    border-radius: 5%;
+    font-size: 20px;
+}
+
+
+
+
+
